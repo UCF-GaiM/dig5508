@@ -17,9 +17,9 @@ var sketch1 = function (p) {
   }
 
   let randomRectangle = function () {
-    p.fill(random(255));
-    p.rect(random() * width, random() * height,
-      random(width / 2), random(width / 2));
+    p.fill(p.random(255));
+    p.rect(p.random() * width, p.random() * height,
+      p.random(width / 2), p.random(width / 2));
   }
 
   function drawCircle(x, y) {
