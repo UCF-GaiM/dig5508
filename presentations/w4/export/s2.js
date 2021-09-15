@@ -1,4 +1,4 @@
-let sketch1 = function (p) {
+let sketch2 = function (p) {
   let circleDraw, squareDraw
 
   p.setup = function () {
