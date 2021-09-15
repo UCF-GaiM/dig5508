@@ -26,3 +26,5 @@ var sketch1 = function (p) {
     p.circle(x, y, 30)
   }
 }
+
+let myp5 = new p5(sketch1);
