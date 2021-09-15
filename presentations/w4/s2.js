@@ -3,13 +3,13 @@ let sketch1 = function (p) {
 
   p.setup = function () {
     var canvas = p.createCanvas(400, 100);
-    canvas.parent('sketch-holder');
+    canvas.parent('sketch-holder-2');
     circleDraw = p.createButton("drawCircle(30,30)");
     circleDraw.mousePressed(() => drawCircle(30, 30))
-    circleDraw.parent('sketch-holder');
+    circleDraw.parent('sketch-holder-2');
     squareDraw = p.createButton("randomRectangle()");
     squareDraw.mousePressed(randomRectangle);
-    squareDraw.parent('sketch-holder');
+    squareDraw.parent('sketch-holder-2');
     p.background(50);
     p.noStroke();
   }
