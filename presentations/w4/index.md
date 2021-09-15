@@ -32,8 +32,10 @@ function drawOne(x,y) {
   circle(x,y,30) 
 }
 ```
+
 <div id="sketch-holder"></div>
 
 --- 
 
 # Sketch 2
+Another slide
