@@ -32,7 +32,6 @@ function drawOne(x,y) {
   circle(x,y,30) 
 }
 ```
-This is the function {.fragment .current-only data-code-focus=1-3}
 <div id="sketch-holder">
   <!-- Our sketch will go here! -->
 </div>
