@@ -6,7 +6,9 @@ slideNumber: false
 title: "DIG5508 W4"
 ---
 # DIG5508
+
 Week 4: Functions & More
+
 <script src="js/p5.js"></script>
 <script src="s1.js"></script>
 <script src="s2.js"></script>
