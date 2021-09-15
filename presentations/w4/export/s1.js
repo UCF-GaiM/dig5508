@@ -1,27 +1,28 @@
 let sketch1 = function (p) {
   let circleDraw, squareDraw
 
-  function setup() {
-    var canvas = createCanvas(400, 100);
+  p.setup = function () {
+    var canvas = p.createCanvas(400, 100);
     canvas.parent('sketch-holder');
-    circleDraw = createButton("drawCircle(30,30)");
+    circleDraw = p.createButton("drawCircle(30,30)");
     circleDraw.mousePressed(() => drawCircle(30, 30))
     circleDraw.parent('sketch-holder');
-    squareDraw = createButton("randomRectangle()");
+    squareDraw = p.createButton("randomRectangle()");
     squareDraw.mousePressed(randomRectangle);
     squareDraw.parent('sketch-holder');
-    background(50);
-    noStroke();
+    p.background(50);
+    p.noStroke();
   }
-  function draw() {
+  p.draw() = function () {
   }
-  function randomRectangle() {
-    fill(random(255));
-    rect(random() * width, random() * height,
+
+  let randomRectangle = function () {
+    p.fill(random(255));
+    p.rect(random() * width, random() * height,
       random(width / 2), random(width / 2));
   }
 
   function drawCircle(x, y) {
-    circle(x, y, 30)
+    p.circle(x, y, 30)
   }
 }
