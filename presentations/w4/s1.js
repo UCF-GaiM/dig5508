@@ -18,8 +18,8 @@ var sketch1 = function (p) {
 
   let randomRectangle = function () {
     p.fill(p.random(255));
-    p.rect(p.random() * width, p.random() * height,
-      p.random(width / 2), p.random(width / 2));
+    p.rect(p.random() * p.width, p.random() * p.height,
+      p.random(p.width / 2), p.random(p.width / 2));
   }
 
   function drawCircle(x, y) {
