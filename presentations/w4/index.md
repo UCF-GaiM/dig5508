@@ -32,9 +32,7 @@ function drawOne(x,y) {
   circle(x,y,30) 
 }
 ```
-<div id="sketch-holder">
-  <!-- Our sketch will go here! -->
-</div>
+<div id="sketch-holder"></div>
 
 --- 
 
