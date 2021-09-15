@@ -35,3 +35,7 @@ function drawOne(x,y) {
 <div id="sketch-holder">
   <!-- Our sketch will go here! -->
 </div>
+
+--- 
+
+# Sketch 2
