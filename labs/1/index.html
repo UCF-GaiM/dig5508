@@ -1,0 +1,198 @@
+<p>
+  Complete the exercises from Chapter 2 using shapes in p5.js instead of
+  strings. You can find it here:
+</p>
+<p>
+  <a
+    class="inline_disabled"
+    href="https://eloquentjavascript.net/02_program_structure.html"
+    target="_blank"
+    rel="noopener"
+    >https://eloquentjavascript.net/02_program_structure.html</a
+  >
+</p>
+<p>
+  There are hints that should be referenced if needed; I won't reproduce them
+  here.
+</p>
+<h3>
+  <span style="font-size: 14pt"
+    ><strong>1-1:&nbsp;Looping a triangle</strong></span
+  >
+</h3>
+<p><span style="font-size: 14pt">(to be placed in labs/1/1-1)</span></p>
+<p>
+  Write a loop that makes seven calls to<span>&nbsp;</span
+  ><code>a p5.js shape</code><span>&nbsp;</span>to output the following pattern
+  (a right triangle):
+</p>
+<pre
+  class="snippet cm-s-default"
+  data-language="null"
+><a id="c_iAdOqXrnTq" class="c_ident" role="presentation" href="https://eloquentjavascript.net/02_program_structure.html#c_iAdOqXrnTq"></a>#
+##
+###
+####
+#####
+######
+#######</pre>
+<p>
+  <a
+    id="p_2gwFh5J631"
+    class="p_ident"
+    role="presentation"
+    href="https://eloquentjavascript.net/02_program_structure.html#p_2gwFh5J631"
+  ></a
+  >It may be useful to know that you can find the length of a string by
+  writing<span>&nbsp;</span><code>.length</code><span>&nbsp;</span>after it.
+</p>
+<pre
+  class="snippet cm-s-default"
+  data-language="javascript"
+><a id="c_qHvXAGuPvV" class="c_ident" role="presentation" href="https://eloquentjavascript.net/02_program_structure.html#c_qHvXAGuPvV"></a><span class="cm-keyword">let</span> <span class="cm-def">abc</span> <span class="cm-operator">=</span> <span class="cm-string">"abc"</span>;
+<span class="cm-variable">console</span>.<span class="cm-property">log</span>(<span class="cm-variable">abc</span>.<span class="cm-property">length</span>);
+<span class="cm-comment">// &rarr; 3</span></pre>
+<p>
+  <a
+    id="p_hzLkQ7lBb5"
+    class="p_ident"
+    role="presentation"
+    href="https://eloquentjavascript.net/02_program_structure.html#p_hzLkQ7lBb5"
+  ></a
+  >Most exercises contain a piece of code that you can modify to solve the
+  exercise. Remember that you can click code blocks to edit them.
+</p>
+<h3>1-2: FizzBuzz</h3>
+<p>
+  <span style="font-size: 14pt"
+    ><strong>(to be placed in labs/1/1-2)</strong></span
+  >
+</p>
+<p>
+  <a
+    id="p_rwAdlrRyQP"
+    class="p_ident"
+    role="presentation"
+    href="https://eloquentjavascript.net/02_program_structure.html#p_rwAdlrRyQP"
+  ></a
+  >Write a program that uses&nbsp;<span style="background-color: #fbeeb8"
+    ><span style="font-family: monospace"
+      ><a
+        class="inline_disabled"
+        href="https://p5js.org/reference/#/p5/text"
+        target="_blank"
+        rel="noopener"
+        >the text function</a
+      >
+    </span></span
+  >to print all the numbers from 1 to 100, with two exceptions. For numbers
+  divisible by 3, <strong>draw a circle</strong> instead of the number, and for
+  numbers divisible by 5 (and not 3), <strong>draw a square</strong> instead.
+</p>
+<p>
+  <a
+    id="p_fJ/4Bt0n0A"
+    class="p_ident"
+    role="presentation"
+    href="https://eloquentjavascript.net/02_program_structure.html#p_fJ/4Bt0n0A"
+  ></a
+  >When you have that working, modify your program to print
+  <strong>a triangle instead</strong><span>&nbsp;</span>for numbers that are
+  divisible by both 3 and 5 (and still print a circle or square for numbers
+  divisible by only one of those).
+</p>
+<p>
+  <a
+    id="p_ka7uWqFA4z"
+    class="p_ident"
+    role="presentation"
+    href="https://eloquentjavascript.net/02_program_structure.html#p_ka7uWqFA4z"
+  ></a
+  >(This is actually an interview question that has been claimed to weed out a
+  significant percentage of programmer candidates. So if you solved it, your
+  labor market value just went up.)<a
+    id="c_HRKSrZS1tJ_1"
+    class="c_ident"
+    role="presentation"
+    href="https://eloquentjavascript.net/02_program_structure.html#c_HRKSrZS1tJ_1"
+  ></a>
+</p>
+<h3>1-3: Chessboard</h3>
+<p>
+  <span style="font-size: 14pt"
+    ><strong>(to be placed in labs/1/1-3)</strong></span
+  >
+</p>
+<p>
+  <a
+    id="p_1pkxSCSkVg"
+    class="p_ident"
+    role="presentation"
+    href="https://eloquentjavascript.net/02_program_structure.html#p_1pkxSCSkVg"
+  ></a
+  >Write a program that creates a pattern of shapes that represents an 8&times;8
+  grid. At each position of the grid there is either a space or a shape . The
+  shapes should form a chessboard. The following is one example of a textual
+  version of this grid:<a
+    id="p_9kgrie1A2f"
+    class="p_ident"
+    role="presentation"
+    href="https://eloquentjavascript.net/02_program_structure.html#p_9kgrie1A2f"
+  ></a>
+</p>
+<pre
+  class="snippet cm-s-default"
+  data-language="null"
+><a id="c_7yVx5TrcJ/" class="c_ident" role="presentation" href="https://eloquentjavascript.net/02_program_structure.html#c_7yVx5TrcJ/"></a><strong> # # # #
+# # # # 
+ # # # #
+# # # # 
+ # # # #
+# # # # 
+ # # # #
+# # # #</strong></pre>
+<p>
+  <a
+    id="p_8n1E0bRGiW"
+    class="p_ident"
+    role="presentation"
+    href="https://eloquentjavascript.net/02_program_structure.html#p_8n1E0bRGiW"
+  ></a
+  >When you have a program that generates this pattern, define a binding<span
+    >&nbsp;</span
+  ><code>size = 8</code><span>&nbsp;</span>and change the program so that it
+  works for any<span>&nbsp;</span><code>size</code>, outputting a grid of the
+  given width and height, and demonstrate it for two different sizes.
+</p>
+<h3>
+  <span style="font-size: 14pt"
+    ><strong>1-4: For the challenge problem:</strong></span
+  >
+</h3>
+<p>
+  <span style="font-size: 14pt"
+    ><strong>(to be placed in labs/1/1-4)</strong></span
+  >
+</p>
+<p>
+  Using loops, create a repeating pattern that changes based on the mouse
+  position. You may use the mouse's location relative to the center, or the x
+  and y components, but it must change every element in the repeating design
+  (step and repeat are suggested).
+</p>
+<h3><strong>SUBMISSION</strong></h3>
+<p>
+  For this assignment, you should create four (4) new CodeSwings in your
+  repository for each exercise (you must name them 1-1, 1-2, 1-3 and 1-4 in the
+  labs directory.
+</p>
+<ul>
+  <li>labs/1/1-1</li>
+  <li>labs/1/1-2</li>
+  <li>labs/1/1-3</li>
+  <li>labs/1/1-4</li>
+</ul>
+<p>
+  You should also submit a screenshot of the result of each of the exercises (1
+  screenshot per exercise).&nbsp;
+</p>
