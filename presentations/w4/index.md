@@ -9,7 +9,9 @@ title: "DIG5508 W4"
 Week 4: Functions & More
 <script src="js/p5.js"></script>
 <script src="s1.js"></script>
-
+<script type="text/javascript">
+let myp5 = new p5(sketch1);
+</script>
 ---
 
 ## Agenda
@@ -22,7 +24,7 @@ Week 4: Functions & More
 
 ---
 
-# Functions
+### Functions
 - Functions allow code to be reused
 - Repetition is to be avoided
 - Any values that determine the behavior should become parameters.
@@ -37,5 +39,7 @@ function drawOne(x,y) {
 
 ---
 
-# Sketch 2
+### Sketch 2
 Another slide
+
+<div id="sketch-holder-2"></div>
