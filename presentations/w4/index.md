@@ -14,9 +14,10 @@ Week 4: Functions & More
 
 ## Agenda
  - Sketchbook Sharing
+ - Lab 1 Walkthrough
+ - More variable and loop practice
  - Functions
  - Lab 2 (In class)
- - 
 
 
 ---
