@@ -11,6 +11,7 @@ Week 4: Functions & More
 <script src="s1.js"></script>
 <script type="text/javascript">
 let myp5 = new p5(sketch1);
+let myp52 = new p5(sketch2);
 </script>
 ---
 
