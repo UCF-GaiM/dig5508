@@ -13,7 +13,7 @@ var sketch1 = function (p) {
     p.background(50);
     p.noStroke();
   }
-  p.draw() = function () {
+  p.draw = function () {
   }
 
   let randomRectangle = function () {
