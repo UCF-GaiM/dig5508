@@ -35,7 +35,7 @@ function drawOne(x,y) {
 
 <div id="sketch-holder"></div>
 
---- 
+---
 
 # Sketch 2
 Another slide
